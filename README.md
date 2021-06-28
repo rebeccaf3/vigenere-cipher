@@ -1,5 +1,5 @@
 # Vigenère Cipher
-Encrypts, decrypts, and attempts to figure out the key for vigenere cipher
+Encrypts, decrypts, and attempts to find the key for vigenere cipher
 
 ## Encryption
 - Enter 'ENCRYPTION' when prompted
