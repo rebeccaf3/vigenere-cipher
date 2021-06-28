@@ -1,4 +1,4 @@
-# vigenere-cipher
+# Vigenère Cipher
 Encrypts, decrypts, and attempts to figure out the key for vigenere cipher
 
 ## Encryption
