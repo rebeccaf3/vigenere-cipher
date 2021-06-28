@@ -173,12 +173,12 @@ def unknownKey(text):
     while True:
         try:
             keyLen = int(input("ENTER KEY LEN: ")) #chosen key length
-            if int(keyLen) > int(maxKeyLen):
+            if (int(keyLen) > int(maxKeyLen)) or (int(keyLen) <= 0):
                 raise Exception
             else:
                 break
         except:
-            print("ENTER ONLY INTEGERS.")
+            print("ENTER ONLY VALID INTEGERS.")
 
     expIndexListAll = getKeys(keyLen, text)
     keyIndex = []
