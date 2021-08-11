@@ -18,7 +18,7 @@ Encrypts, decrypts, and attempts to find the key if it is unknown for the vigene
 - Enter 'DECRYPTION' when prompted
 - Enter ciphertext to decrypt
 - Input 'N' to indicate that the key is not known
-- Input a maximum key length to check for. This must be greater than 0 but less than the length of the ciphertext. Note that a larger maximum key will be slower.
+- Input a maximum key length to check for. This must be greater than 0 but less than the length of the ciphertext. Note that a larger maximum key length will be slower.
 - The most likely key length to the least likely key length is output
 - Input a key length to use
 - Keys will be output, ordered by the most likely key to the least likely key
