@@ -213,7 +213,7 @@ def main():
     text = input("ENTER TEXT: ").upper()
     text = text.translate(str.maketrans('','',string.punctuation)) #remove punctuation
     text = text.translate(str.maketrans('','',' '))
-    print(text)
+    #print(text)
     while text.isalpha() == False:
         print("ENTER ONLY LETTERS.")
         text = input("ENTER TEXT: ")
